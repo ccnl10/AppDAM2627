@@ -10,7 +10,7 @@ Repositorio de clase del curso **2026/2027** del IES Virrey Morcillo (ciclo DAM)
 
 > 🚧 **Proyecto en construcción.** El repositorio crece a lo largo del curso. Si un tema todavía no aparece, es porque aún no lo hemos visto en clase.
 
-🌐 **Web del proyecto:** https://USUARIO.github.io/MyAppDam1/
+🌐 **Web del proyecto:** https://USUARIO.github.io/AppDAM2627/
 
 ---
 
