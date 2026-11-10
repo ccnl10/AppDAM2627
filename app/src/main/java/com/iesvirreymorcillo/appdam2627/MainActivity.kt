@@ -8,10 +8,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.iesvirreymorcillo.appdam2627.Componentes.Column.MyColumnScroll
-import com.iesvirreymorcillo.appdam2627.Componentes.text.MyText4
-import com.iesvirreymorcillo.appdam2627.Componentes.text.MyText5
-import com.iesvirreymorcillo.appdam2627.Ejercicios.Ejercicio1
+import com.iesvirreymorcillo.appdam2627.Componentes.layouts.Spacer.MySpacer0
+import com.iesvirreymorcillo.appdam2627.Componentes.layouts.Spacer.MySpacer1
 import com.iesvirreymorcillo.appdam2627.ui.theme.AppDAM2627Theme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +21,8 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 
                    // MyText5("Cristian", modifier = Modifier.padding(innerPadding))
-                    MyColumnScroll(modifier = Modifier.padding(innerPadding))
+            //        MyColumnScroll(modifier = Modifier.padding(innerPadding))
+                    MySpacer1(modifier = Modifier.padding(innerPadding))
 
                 }
             }

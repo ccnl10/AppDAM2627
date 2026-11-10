@@ -14,7 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 @Composable
 fun MyRow0(modifier: Modifier = Modifier){
     Row( modifier = modifier.fillMaxSize()) {
-        Text(text = "Hola", modifier = Modifier.background(Color.Red).weight(1f).fillMaxHeight())
+        Text(text = "Hola", modifier = Modifier.background(Color.Red).weight(2f).fillMaxHeight())
         Text(text = "Hola", modifier = Modifier.background(Color.Cyan).weight(1f).fillMaxHeight())
         Text(text = "Hola", modifier = Modifier.background(Color.Yellow).weight(2f).fillMaxHeight())
         Text(text = "Hola", modifier = Modifier.background(Color.Blue).weight(1f).fillMaxHeight())

@@ -22,6 +22,7 @@ fun EjemploColumn1(texto: String) {
 }
 
 // Preview para ver el resultado
+@Preview
 @Composable
 fun PreviewEjemploColumn1() {
     EjemploColumn1("Texto") //<-- Parámetro pasado por posición

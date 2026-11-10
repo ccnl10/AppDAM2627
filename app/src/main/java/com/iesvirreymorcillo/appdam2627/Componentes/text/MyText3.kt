@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
@@ -21,8 +22,8 @@ fun MyText3(text: String) {
             .size(200.dp)
             .clip(RoundedCornerShape(50.dp)) // Redondea los bordes
             .background(Color.Green)
-            .padding(30.dp)
-    )
+            .padding(30.dp),
+        fontWeight = FontWeight.Bold    )
 }
 
 @Preview

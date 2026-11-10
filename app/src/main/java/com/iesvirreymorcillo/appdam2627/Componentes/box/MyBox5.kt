@@ -35,6 +35,7 @@ fun EjemploBox5(texto: String) {
                 .clip(RoundedCornerShape(20.dp)) // Redondea los bordes con RoundedCornerShape(20.dp)
                 .size(150.dp) // Tamaño fijo de 200x200 dp
                 .background(Color.Red) // Fondo del Box principal (la primera capa)
+                .border(5.dp, Color.Blue)
                 .align(Alignment.BottomStart)
         ) {
             Text(
@@ -43,7 +44,7 @@ fun EjemploBox5(texto: String) {
                 fontSize = 25.sp,
                 modifier = Modifier
                     .align(Alignment.Center) // Alineación individual: centrado
-                    .border(5.dp, Color.Red, RoundedCornerShape(20.dp))
+                    .border(5.dp, Color.Yellow, RoundedCornerShape(20.dp))
                     .padding(18.dp)
             )
 

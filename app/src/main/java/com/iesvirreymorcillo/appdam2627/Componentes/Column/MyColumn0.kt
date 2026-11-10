@@ -3,6 +3,7 @@ package com.iesvirreymorcillo.appdam2627.Componentes.Column
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -14,7 +15,7 @@ import com.iesvirreymorcillo.appdam2627.Componentes.box.EjemploBox1
 @Composable
 fun MyColumn0(){
     Column(Modifier.fillMaxSize()) {
-        Text("Hola 1", modifier = Modifier.background(Color.Red).weight(2f))
+        Text("Hola 1", modifier = Modifier.background(Color.Red).fillMaxWidth().weight(2f))
         Text("Hola 2", modifier = Modifier.background(Color.Blue).weight(1f))
         Text("Hola 3", modifier = Modifier.background(Color.Yellow).weight(1f))
 

@@ -6,23 +6,23 @@
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="PreviewEjemploColumn7 (2)">
+      <SelectionState runConfigName="PreviewEjemploBox4">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="MyRow2">
+      <SelectionState runConfigName="PreviewEjemploBox8">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="PreviewMyBox7">
+      <SelectionState runConfigName="MyTestText3">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="PreviewEjemploColumn2">
+      <SelectionState runConfigName="MyConstraintLayout7Preview">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="MyRow1">
+      <SelectionState runConfigName="MyConstraintLayout6Preview">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>

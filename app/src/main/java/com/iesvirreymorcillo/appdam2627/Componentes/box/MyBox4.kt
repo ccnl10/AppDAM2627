@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -23,10 +24,11 @@ fun EjemploBox4(texto: String) {
     Box(
         modifier = Modifier
             .padding(20.dp)
-            .clip(RoundedCornerShape(20.dp)) // Redondea los bordes con RoundedCornerShape(20.dp)
             .size(220.dp) // Tamaño fijo de 200x200 dp
+            .clip(RoundedCornerShape(100.dp)) // Redondea los bordes con RoundedCornerShape(20.dp)
             .background(Color.Blue) // Fondo del Box principal (la primera capa)
-            .border(5.dp, Color.Red)
+            .border(5.dp, Color.Red, RoundedCornerShape(100.dp))
+
     ) {
         Text(
             text = texto,
@@ -36,6 +38,7 @@ fun EjemploBox4(texto: String) {
                 .align(Alignment.Center) // Alineación individual: centrado
                 .border(5.dp, Color.Red, RoundedCornerShape(20.dp))
                 .padding(18.dp)
+
         )
 
     }
